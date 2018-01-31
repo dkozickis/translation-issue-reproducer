@@ -9,3 +9,9 @@ translation:
             output_dir: "%kernel.project_dir%/translations"
             excluded_names: ["*TestCase.php", "*Test.php"]
             excluded_dirs: [cache, data, logs]
+            remote_storage: ["php_translation.adapter.loco"]
+
+translation_adapter_loco:
+    projects:
+        messages:
+            api_key: 'hlI9ArIjxZMx56NUo8HfgXWq7-EEIZcSu'
